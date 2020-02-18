@@ -12,7 +12,7 @@
         $nombre2 = $_POST['nombre2'];
         $apellido2 = $_POST['apellido2'];
         $email2 = $_POST['email2'];
-            $servername="localhost";
+            $servername="192.168.1.112"; //En localhost poner la IP de tu ordenador
             $username="root";
             $password="";
             $dbname="CanoDB";
