@@ -1,0 +1,6 @@
+drop database if exists despliegue;
+create database despliegue;
+CREATE TABLE `usuarios` (
+  `nombre` varchar(90) NOT NULL PRIMARY KEY,
+  `pass` varchar(90) not null
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
